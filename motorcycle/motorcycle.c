@@ -8,7 +8,9 @@ typedef struct {
     struct engine_t* engine;
 } motorcycle_t;
 
-motorcycle_t* motorcycle_new() {}
+motorcycle_t* motorcycle_new() {
+    return (motorcycle_t*) malloc(sizeof(motorcycle_t));
+}
 
 void motorcycle_ctor(motorcycle_t* motorcycle) {
     // выделяем память для объекта engine
