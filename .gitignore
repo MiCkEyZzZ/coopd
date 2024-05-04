@@ -1,0 +1,11 @@
+# ОС
+.DS_Store
+
+# IDEs и редакторы
+/.idea
+.vscode/*
+
+# скомпилированный вывод
+/dist
+
+/cmake-build-debug
