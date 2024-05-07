@@ -16,4 +16,4 @@ void car_destruct(car_t*);
 void car_set_speed(car_t*, double);
 void car_set_price(car_t*, double);
 
-#endif //COOPD_CAR_H
+#endif // COOPD_CAR_H

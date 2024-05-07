@@ -17,4 +17,4 @@ void motorcycle_start(struct motorcycle_t*);
 void motorcycle_stop(struct motorcycle_t*);
 double motorcycle_get_engine_temperature(struct motorcycle_t*);
 
-#endif //COOPD_MOTORCYCLE_H
+#endif // COOPD_MOTORCYCLE_H

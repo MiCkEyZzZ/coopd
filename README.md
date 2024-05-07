@@ -67,3 +67,30 @@ gcc person.o student.o main.o -o exe.out
 # запуск скомпонованного файла
 ./exe.out
 ```
+#### Employee
+```zsh
+# скомпилируем исходный код в объектные файлы
+gcc -c person.c -o person.o 
+gcc -c employee.c -o employee.o 
+gcc -c main.c -o main.o
+
+# скомпонуем объектные файлы
+gcc person.o employee.o main.o -o exe.out
+
+# запуск скомпонованного файла
+./exe.out
+```
+#### Animal
+```zsh
+# скомпилируем исходный код в объектные файлы
+gcc -c animal.c -o animal.o 
+gcc -c cat.c -o cat.o 
+gcc -c duck.c -o duck.o
+gcc -c main.c -o main.o
+
+# скомпонуем объектные файлы
+gcc animal.o cat.o duck.o main.o -o exe.out
+
+# запуск скомпонованного файла
+./exe.out
+```

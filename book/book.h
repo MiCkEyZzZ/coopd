@@ -20,4 +20,4 @@ void books_clear(struct books_list_t*);
 size_t books_size(struct books_list_t*);
 void books_print(struct books_list_t*);
 
-#endif //COOPD_BOOK_H
+#endif // COOPD_BOOK_H

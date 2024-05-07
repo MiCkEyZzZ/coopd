@@ -59,6 +59,6 @@ void person_stop_bus(person_t* person) {
 
 void person_abandon_bus(person_t* person) {
     // Завершение агрегации двух объектов. Объект bus нет смысла освобождать,
-    // так данный объект не является его владельцем.
+    // так как данный объект не является его владельцем.
     person->bus = NULL;
 }

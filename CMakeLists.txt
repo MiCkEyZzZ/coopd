@@ -15,4 +15,28 @@ add_executable(coopd
         motorcycle/engine.c
         motorcycle/engine.h
         motorcycle/main.c
+        bus/bus.c
+        bus/bus.h
+        bus/person.h
+        bus/person.c
+        bus/main.c
+        user/person.h
+        user/person.c
+        user/person_p.h
+        user/student.h
+        user/student.c
+        user/main.c
+        employee/employee.h
+        employee/person.c
+        employee/employee.c
+        employee/person.h
+        employee/main.c
+        animal/animal.h
+        animal/animal_p.h
+        animal/animal.c
+        animal/cat.h
+        animal/cat.c
+        animal/duck.h
+        animal/duck.c
+        animal/main.c
 )
